@@ -64,12 +64,12 @@ def call_function(function, args):
     if func == 'loc':
         loc()
         
-    elif func == 'passing':
+    elif func == 'pass':
         try:
             latitude = args[0]
             longitude = args[1]
         except IndexError:
-            print('Please supply a latitude and longitude.')
+            print('Latitude and longitude are required.')
         else:
             passing(latitude, longitude)
         
@@ -77,7 +77,7 @@ def call_function(function, args):
         people()
         
     else:
-        print('Improper function call. Possible functions are \'loc\', \'passing\', or \'people\'.')
+        print('Improper function call. Possible functions are \'loc\', \'pass\', or \'people\'.')
 
 if __name__ == "__main__":
     args = sys.argv

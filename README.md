@@ -2,11 +2,11 @@
 Command line tool to get information about the ISS from http://api.open-notify.org/.
 
 ## Usage
-The tool will prompt you for input or you may supply it in the command line. Available function names are `loc`, `passing`, and `people`.
+The tool will prompt you for input or you may supply it in the command line. Available function names are `loc`, `pass`, and `people`.
 
     > iss-api.py
     Please supply a function name.
-
+f
 ### Get the current location of the ISS
     > iss-api.py loc
     The ISS current location at 2020-07-23 00:26:31.864122 is (-50.0239, 53.1447).
@@ -14,7 +14,7 @@ The tool will prompt you for input or you may supply it in the command line. Ava
 ### Get overhead passing times and durations for a location
 Pass a latitude and a longitude.
 
-    > iss-api.py passing 10 20
+    > iss-api.py pass 10 20
     The ISS will be overhead at (10, 20) at 08:36:00 on 07/23/2020 for 91 seconds.
     The ISS will be overhead at (10, 20) at 10:07:49 on 07/23/2020 for 650 seconds.
     The ISS will be overhead at (10, 20) at 11:47:12 on 07/23/2020 for 349 seconds.
