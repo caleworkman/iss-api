@@ -6,7 +6,7 @@ The tool will prompt you for input or you may supply it in the command line. Ava
 
     > iss-api.py
     Please supply a function name.
-f
+
 ### Get the current location of the ISS
     > iss-api.py loc
     The ISS current location at 2020-07-23 00:26:31.864122 is (-50.0239, 53.1447).
