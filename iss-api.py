@@ -15,6 +15,7 @@ base_api_url = 'http://api.open-notify.org'
 
 def loc():    
     """Print the location of the ISS as a (latitude, longitude) pair."""
+    
     url = base_api_url + '/iss-now.json'
     with urllib.request.urlopen(url) as response:
         data = json.loads(response.read())
@@ -57,6 +58,7 @@ def people():
 
 def call_function(function, args):
     """Call the appropriate function."""   
+    
     func = function.lower()
     
     if func == 'loc':
