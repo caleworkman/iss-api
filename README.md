@@ -2,7 +2,7 @@
 Command line tool to get information about the ISS from http://api.open-notify.org/.
 
 ## Usage
-The tool will prompt you for input or you may supply it in the command line.
+The tool will prompt you for input or you may supply it in the command line. Available function names are `loc`, `passing`, and `people`.
 
     > iss-api.py
     Please supply a function name.
