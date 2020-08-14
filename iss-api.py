@@ -2,7 +2,7 @@
 # and the people on board from http://api.open-notify.org/
 
 # Author: Cale Workman
-# Date: 7/22/202
+# Date: 7/22/2020
 
 import sys
 import json
